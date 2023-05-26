@@ -10,9 +10,10 @@ public class MyForm extends JFrame{
     private JButton settings;
     private JPanel leftNorthPanel;
     private JPanel rightNorthPanel;
-    private JScrollPane scroll;
     private JTabbedPane config;
-    private JTree tree1;
+    private JList list1;
+    private JLabel label;
+    private JTextField textField1;
 
     public MyForm() {
         setContentPane(panel1);
